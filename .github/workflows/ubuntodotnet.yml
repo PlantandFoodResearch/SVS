@@ -19,7 +19,6 @@ jobs:
       pages: write     
       id-token: write
       deployments: write  
-      pull_request: write
       
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
