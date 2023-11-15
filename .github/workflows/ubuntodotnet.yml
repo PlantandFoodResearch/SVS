@@ -22,8 +22,8 @@ jobs:
       deployments: write  
       pull-requests: write
       
-    env:
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    # env:
+      # GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       
     environment:
       name: github-pages
