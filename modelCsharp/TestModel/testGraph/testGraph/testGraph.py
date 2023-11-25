@@ -122,8 +122,7 @@ for t in tests:
     Data = AllData.loc[:,(t,'CropN')].sort_index()
     makeplot(Data,color)
     make_observed(observed_data[datefilter])
-    pos+=1
-  
+    pos+=1  
     
 plt.savefig('testplot.png')
 
@@ -133,7 +132,6 @@ builder.insert_image("testplot.png")
 doc.save("index.html")
 
 plt.show()
-
 
 #shutil.rmtree(path+"\\OutputFiles")
 #shutil.rmtree(path+"\\NitrogenApplied")
