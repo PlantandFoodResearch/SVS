@@ -131,9 +131,11 @@ builder = aw.DocumentBuilder(doc)
 builder.insert_image("testplot.png")
 doc.save("index.html")
 
+
 plt.show()
 
 #shutil.rmtree(path+"\\OutputFiles")
 #shutil.rmtree(path+"\\NitrogenApplied")
+
 
 
